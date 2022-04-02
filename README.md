@@ -2,14 +2,13 @@
 The goal of the project is to make it possible to tweak Ubuntu dock with no GUI app installed, all you have to do is to run the script
 
 ## How to use it?
-Well, you need to 
+First of all, you need to 
 ```
 git clone https://github.com/LambLeeg/Ubuntu-dock-tweaker-CLI-TUI.git
 ```
- from a terminal within the dirrectory you want it to be
+ from a terminal within the dirrectory you want it to be.
 
-## How to use it?
-Simply open the cloned folder, and write 
+Now, open the cloned folder in a terminal, and write 
 ```
 ./Ubuntu\'s\ Dock\ tweaks.py 
 ``` 
