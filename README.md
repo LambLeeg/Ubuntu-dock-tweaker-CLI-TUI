@@ -14,7 +14,7 @@ Now, open the cloned folder in a terminal, and write
 ``` 
 
 ## What it can do?
-At the moment, it can enable "Minimize on click" and/or enable "Move application menu on top of the dock"
+At the moment, it can enable "Minimize on click" and/or enable "Move application menu on top of the dock". Also, disabling of these functions not as smooth! So, make sure you really want to enable those features!
 
 ### Will it have something else?
 Well, in a nutshell, yes; I am going to add some stuff
