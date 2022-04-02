@@ -4,6 +4,7 @@ import os
 import MinClick
 import TopMenu
 import extra as e
+import time
 
 e.logoin()
 
@@ -52,3 +53,5 @@ while 1 == 1:
         e.ubuntu(5)
 
 e.logooff()
+time.sleep(3)
+os.system("clear")
