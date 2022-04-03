@@ -13,10 +13,8 @@ def minclick():
     x = input("What are gonna do?... ")
 
 
-    if x == 'YES' or 'Yes' or 'yes' or 'yEs' or 'yeS' or 'YEs' or 'YeS':
-        os.system("""
-        gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
-        """)
+    if x == 'YES':
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'")
         print ("""
 
  -----------------------------------
@@ -28,10 +26,8 @@ def minclick():
         input()
         os.system("clear")
 
-    elif x == 'NO' or 'no' or 'No' or 'nO':
-        os.system("""
-        gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
-        """)
+    elif x == 'NO':
+        os.system("gsettings reset org.gnome.shell.extensions.dash-to-dock click-action")
         print ("""
     
  -----------------------------------
