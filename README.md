@@ -10,7 +10,7 @@ git clone https://github.com/LambLeeg/Ubuntu-dock-tweaker-CLI-TUI.git
 
 Now, open the cloned folder in a terminal, and write 
 ```
-./tweaks.py 
+./tweaker.py 
 ``` 
 ___
 
