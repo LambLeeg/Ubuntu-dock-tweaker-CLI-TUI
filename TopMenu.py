@@ -13,10 +13,8 @@ def topmenu():
     x = input("What are gonna do?... ")
 
 
-    if x == 'YES' or 'Yes' or 'yes' or 'yEs' or 'yeS' or 'YEs' or 'YeS':
-        os.system("""
-        gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
-        """)
+    if x == 'YES':
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true")
         print ("""
 
  -----------------------------------
@@ -28,10 +26,8 @@ def topmenu():
         input()
         os.system("clear")
 
-    elif x == 'NO' or 'no' or 'No' or 'nO':
-        os.system("""
-        gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top false
-        """)
+    elif x == 'NO':
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top false")
         print ("""
     
  -----------------------------------
