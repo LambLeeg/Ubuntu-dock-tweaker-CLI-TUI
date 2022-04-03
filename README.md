@@ -30,7 +30,7 @@ Changelog:
 - Added the Extended option
 - Now, the core file is name just `tweaker.py` instead of long name that make cause some troubles
 
-Bugs;
+Bugs:
 - script doesn't make anything to system
 ___
 
