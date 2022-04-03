@@ -4,16 +4,16 @@ def extend():
 
     print("""
 
- -------------------------------------------------
-| Type YES if you need to enable 'extended dock'  |
-| Type NO if you need to disable this option off  |
- -------------------------------------------------
+ ------------------------------------------------
+| Type 1 if you need to enable 'extended dock'   |
+| Type 2 if you need to disable this option off  |
+ ------------------------------------------------
 
     """)
-    x = input("What are gonna do?... ")
+    x = int (input("What are gonna do?... "))
 
 
-    if x == 'YES':
+    if x == 1:
         os.system("gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true")
         print ("""
 
@@ -26,7 +26,7 @@ def extend():
         input()
         os.system("clear")
 
-    elif x == 'NO':
+    elif x == 2:
         os.system("gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false")
         print ("""
     

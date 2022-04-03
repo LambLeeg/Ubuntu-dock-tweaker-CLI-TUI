@@ -32,6 +32,11 @@ Changelog:
 
 Bugs:
 - script doesn't make anything to system
+
+### Version 0.0.3
+Changelog:
+- Now, everything just works
+- Options 'YES' and 'NO' were changed to 1 and 2
 ___
 
 ## Will it have something else?

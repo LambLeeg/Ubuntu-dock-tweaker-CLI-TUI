@@ -4,16 +4,16 @@ def minclick():
 
     print("""
 
- ----------------------------------------------------
-| Type YES if you need to enable 'minimize on click' |
-| Type NO if you need to disable this option off     |
- ----------------------------------------------------
+ ---------------------------------------------------
+| Type 1 if you need to enable 'minimize on click'  |
+| Type 2 if you need to disable this option off     |
+ ---------------------------------------------------
 
     """)
-    x = input("What are gonna do?... ")
+    x = int (input("What are gonna do?... "))
 
 
-    if x == 'YES':
+    if x == 1:
         os.system("gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'")
         print ("""
 
@@ -26,7 +26,7 @@ def minclick():
         input()
         os.system("clear")
 
-    elif x == 'NO':
+    elif x == 2:
         os.system("gsettings reset org.gnome.shell.extensions.dash-to-dock click-action")
         print ("""
     
