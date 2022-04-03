@@ -10,18 +10,36 @@ git clone https://github.com/LambLeeg/Ubuntu-dock-tweaker-CLI-TUI.git
 
 Now, open the cloned folder in a terminal, and write 
 ```
-./Ubuntu\'s\ Dock\ tweaks.py 
+./tweaks.py 
 ``` 
+___
 
 ## What it can do?
-At the moment, it can enable "Minimize on click" and/or enable "Move application menu on top of the dock". Also, disabling of these functions not as smooth! So, make sure you really want to enable those features!
 
-### Will it have something else?
+### Version 0.0.1
+- Minimize on click
+- Move application menu on top of the dock
+
+Changelog:
+- The 'disable' feature is now workable
+
+### Version 0.0.2
+- Extended dock
+
+Changelog:
+- Added the Extended option
+- Now, the core file is name just `tweaker.py` instead of long name that make cause some troubles
+
+Bugs;
+- script doesn't make anything to system
+___
+
+## Will it have something else?
 Well, in a nutshell, yes; I am going to add some stuff
 
 ## Troubleshooting
 There is a little chance that cloned files won't work, then just use 
 ```
-chmod +x Ubuntu\'s\ Dock\ tweaks.py
+chmod +x tweaker.py
 ```
  at the cloned folder, and now give it a second shot!
