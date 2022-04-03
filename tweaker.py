@@ -3,6 +3,7 @@
 import os
 import MinClick
 import TopMenu
+import Extend
 import extra as e
 import time
 
@@ -15,7 +16,8 @@ while 1 == 1:
 | What option do you need to manage?     |
 | 1 --> Minimize on click                |
 | 2 --> Menu on the top part of the dock |
-| 3 --> I want to exit                   |
+| 3 --> Extended dock (fill the matter)  |
+| 4 --> I want to exit                   |
  ----------------------------------------
 
     """))
@@ -27,6 +29,9 @@ while 1 == 1:
         TopMenu.topmenu()
 
     elif a == 3:
+        Extend.extend()
+
+    elif a == 4:
         os.system("clear")
         print("""
         
