@@ -12,6 +12,7 @@ git clone https://github.com/LambLeeg/Ubuntu-dock-tweaker-CLI-TUI.git
 
 1. Now, open the cloned folder in a terminal, and write `./tweaker.py`
 2. The second method is to open Files and right click the `tweaker.py`, then click "Run as a program" (works for Ubuntu)
+3. Look at the releases section on the right side, there is a one package R (LTS) version for you!
 ___
 
 ## QA
