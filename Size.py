@@ -1,21 +1,21 @@
 import os
 
-def position():
+def size():
 
     print("""
 
- ------------------------------------------------
-| Type 1 if you need to set dock on the BOTTOM   |
-| Type 2 if you need to set dock on the LEFT     |
-| Type 3 if you need to set dock on the RIGHT    |
- ------------------------------------------------
+ -----------------------------------------------------
+| Type 1 if you need to set icon size to 64           |
+| Type 2 if you need to set icon size to 48 (DEFAULT) |
+| Type 3 if you need to set icon size to 35           |
+ -----------------------------------------------------
 
 --> """)
     x = int (input("What are gonna do?... "))
 
 
     if x == 1:
-        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM")
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64")
         print ("""
 
  -----------------------------------
@@ -28,7 +28,7 @@ def position():
         os.system("clear")
 
     elif x == 2:
-        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position LEFT")
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 48")
         print ("""
     
  -----------------------------------
@@ -41,7 +41,7 @@ def position():
         os.system("clear")
 
     elif x == 3:
-        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position RIGHT")
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 35")
         print ("""
     
  -----------------------------------

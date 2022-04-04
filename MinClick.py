@@ -9,7 +9,7 @@ def minclick():
 | Type 2 if you need to disable this option off     |
  ---------------------------------------------------
 
-    """)
+--> """)
     x = int (input("What are gonna do?... "))
 
 
@@ -22,7 +22,7 @@ def minclick():
 | Press any button (Enter) to go on |
  -----------------------------------
 
-        """)
+""")
         input()
         os.system("clear")
 
@@ -35,7 +35,7 @@ def minclick():
 | Press any button (Enter) to go on |
  -----------------------------------
 
-        """)
+""")
         input()
         os.system("clear")
 
@@ -47,7 +47,7 @@ def minclick():
 | Type 1 or 2 next time (hit ENTER)    |
  --------------------------------------
 
-        """)
+""")
         input()
         os.system("clear")
 pass

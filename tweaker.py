@@ -10,6 +10,7 @@ import TopMenu
 import Extend
 import extra as e
 import Position
+import Size
 
 # Ubuntu logo
 
@@ -26,10 +27,11 @@ while 1 == 1:
 | 2 --> Menu on the top part of the dock |
 | 3 --> Extended dock (fill the matter)  |
 | 4 --> Change the dock alignment        |
-| 5 --> I want to exit                   |
+| 5 --> Change icon size                 |
+| 6 --> I want to exit                   |
  ----------------------------------------
 
-    """))
+--> """))
 
 # Options which execute other Python files with DEFs
 
@@ -45,9 +47,12 @@ while 1 == 1:
     elif a == 4:
         Position.position()
 
+    elif a == 5:
+        Size.size()
+
 # Exit option
 
-    elif a == 5:
+    elif a == 6:
         os.system("clear")
         print("""
         
@@ -55,7 +60,7 @@ while 1 == 1:
 | We are about to exit, click ENTER to do so |
  --------------------------------------------
 
-        """)
+""")
         input()
         os.system("clear")
         break
@@ -70,7 +75,7 @@ while 1 == 1:
 | Try again, something went wrong! |
  ----------------------------------
 
-        """)
+""")
         input()
         os.system("clear")
         e.ubuntu(5)
