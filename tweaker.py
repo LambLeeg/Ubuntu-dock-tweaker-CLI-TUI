@@ -1,13 +1,21 @@
 #!/usr/bin/python3
 
+
+# Import part
+
 import os
+import time
 import MinClick
 import TopMenu
 import Extend
 import extra as e
-import time
+import Position
+
+# Ubuntu logo
 
 e.logoin()
+
+# The body of code
 
 while 1 == 1:
     a = int (input("""
@@ -17,10 +25,13 @@ while 1 == 1:
 | 1 --> Minimize on click                |
 | 2 --> Menu on the top part of the dock |
 | 3 --> Extended dock (fill the matter)  |
-| 4 --> I want to exit                   |
+| 4 --> Change the dock alignment        |
+| 5 --> I want to exit                   |
  ----------------------------------------
 
     """))
+
+# Options which execute other Python files with DEFs
 
     if a == 1:
         MinClick.minclick()
@@ -32,6 +43,11 @@ while 1 == 1:
         Extend.extend()
 
     elif a == 4:
+        Position.position()
+
+# Exit option
+
+    elif a == 5:
         os.system("clear")
         print("""
         
@@ -43,6 +59,8 @@ while 1 == 1:
         input()
         os.system("clear")
         break
+
+# ERROR message
 
     else:
         os.system("clear")

@@ -1,20 +1,21 @@
 import os
 
-def minclick():
+def position():
 
     print("""
 
- ---------------------------------------------------
-| Type 1 if you need to enable 'minimize on click'  |
-| Type 2 if you need to disable this option off     |
- ---------------------------------------------------
+ ------------------------------------------------
+| Type 1 if you need to set dock on the BOTTOM   |
+| Type 2 if you need to set dock on the LEFT     |
+| Type 3 if you need to set dock on the RIGHT    |
+ ------------------------------------------------
 
     """)
     x = int (input("What are gonna do?... "))
 
 
     if x == 1:
-        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'")
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM")
         print ("""
 
  -----------------------------------
@@ -27,7 +28,20 @@ def minclick():
         os.system("clear")
 
     elif x == 2:
-        os.system("gsettings reset org.gnome.shell.extensions.dash-to-dock click-action")
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position LEFT")
+        print ("""
+    
+ -----------------------------------
+| All done, now check it out!       |
+| Press any button (Enter) to go on |
+ -----------------------------------
+
+        """)
+        input()
+        os.system("clear")
+
+    elif x == 3:
+        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock dock-position RIGHT")
         print ("""
     
  -----------------------------------

@@ -20,13 +20,13 @@ ___
 - Minimize on click
 - Move application menu on top of the dock
 
-Changelog:
+#### Changelog:
 - The 'disable' feature is now workable
 
 ### Version 0.0.2
 - Extended dock
 
-Changelog:
+#### Changelog:
 - Added the Extended option
 - Now, the core file is name just `tweaker.py` instead of long name that make cause some troubles
 
@@ -34,9 +34,18 @@ Bugs:
 - script doesn't make anything to system
 
 ### Version 0.0.3
-Changelog:
-- Now, everything just works
+- The fixes of bugs and errors
+
+#### Changelog:
+- Now, everything just works, before 'disable' could do nothing
 - Options 'YES' and 'NO' were changed to 1 and 2
+
+### Version 0.0.4
+- Now you can change the position of a dock
+
+#### Changelog:
+- Added the new option to choose where dock is placed
+- Spelling mistakes are fixed
 ___
 
 ## Will it have something else?

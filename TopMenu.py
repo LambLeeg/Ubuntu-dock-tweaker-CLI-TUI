@@ -44,7 +44,7 @@ def topmenu():
      
  --------------------------------------
 | Hmmm... Reopen script, and try again |
-| Type yes or no next time (hit ENTER) |
+| Type 1 or 2 next time (hit ENTER)    |
  --------------------------------------
 
         """)
