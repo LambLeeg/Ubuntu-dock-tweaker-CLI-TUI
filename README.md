@@ -61,7 +61,7 @@ Bugs:
 - Added the new option to choose where dock is placed
 - Spelling mistakes are fixed
 
-## Version 0.0.5
+## Version 0.0.5 R
 - Now you can change the size of icons
 
 #### Changelog
