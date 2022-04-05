@@ -84,4 +84,4 @@ Bugs:
 
 #### Changelog
 - Added 'auto-hide' option
-- Arrow' bug is fixed
+- Arrow bug is fixed
