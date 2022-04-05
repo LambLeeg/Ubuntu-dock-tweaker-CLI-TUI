@@ -9,8 +9,8 @@ def minclick():
 | Type 2 if you need to disable this option off     |
  ---------------------------------------------------
 
---> """)
-    x = int (input("What are gonna do?... "))
+""")
+    x = int (input("-->"))
 
 
     if x == 1:

@@ -10,8 +10,8 @@ def size():
 | Type 3 if you need to set icon size to 35           |
  -----------------------------------------------------
 
---> """)
-    x = int (input("What are gonna do?... "))
+""")
+    x = int (input("--> "))
 
 
     if x == 1:

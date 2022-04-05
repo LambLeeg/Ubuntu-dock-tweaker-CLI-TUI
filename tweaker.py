@@ -11,6 +11,7 @@ import Extend
 import extra as e
 import Position
 import Size
+import Autohide
 
 # Ubuntu logo
 
@@ -28,7 +29,8 @@ while 1 == 1:
 | 3 --> Extended dock (fill the matter)  |
 | 4 --> Change the dock alignment        |
 | 5 --> Change icon size                 |
-| 6 --> I want to exit                   |
+| 6 --> Enable auto-hide of the dock     |
+| 7 --> I want to exit                   |
  ----------------------------------------
 
 --> """))
@@ -49,10 +51,12 @@ while 1 == 1:
 
     elif a == 5:
         Size.size()
+    elif a ==6:
+        Autohide.autohide()
 
 # Exit option
 
-    elif a == 6:
+    elif a == 7:
         os.system("clear")
         print("""
         

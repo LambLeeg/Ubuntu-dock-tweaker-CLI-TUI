@@ -10,8 +10,8 @@ def position():
 | Type 3 if you need to set dock on the RIGHT    |
  ------------------------------------------------
 
---> """)
-    x = int (input("What are gonna do?... "))
+""")
+    x = int (input("--> "))
 
 
     if x == 1:

@@ -27,6 +27,13 @@ ___
 
 4. Why it's FOSS?
 - Because I do believe that free and open source is the power of openness
+___
+
+## Will it have something else?
+Well, in a nutshell, yes; I am going to add some stuff
+
+## Troubleshooting
+There is a little chance that cloned files won't work, then just use `chmod +x tweaker.py` at the cloned folder or right click --> Properties --> Permissions --> Allow executing file as a program, and now give it a second shot!
 
 ___
 ## Update history
@@ -68,10 +75,13 @@ Bugs:
 #### Changelog
 - Added 'change icon size' option
 - Added a small arrow at input area
-___
 
-## Will it have something else?
-Well, in a nutshell, yes; I am going to add some stuff
+Bugs:
+- Arrow of the input area wasn't correct
 
-## Troubleshooting
-There is a little chance that cloned files won't work, then just use `chmod +x tweaker.py` at the cloned folder or right click --> Properties --> Permissions --> Allow executing file as a program, and now give it a second shot!
+### Version 0.0.6
+- Added auto-hide option
+
+#### Changelog
+- Added 'auto-hide' option
+- Arrow' bug is fixed

@@ -24,8 +24,7 @@ def logoin():
   \  --- _/  
      ---(_)  
 
-Version: 0.0.5 R
-First version to be ready for users, yay!
+Version: 0.0.6
 
     """)
 
