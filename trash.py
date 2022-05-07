@@ -1,20 +1,20 @@
 import os
 
-def minclick():
+def trash():
 
     print("""
 
- ---------------------------------------------------
-| Type 1 if you need to enable 'minimize on click'  |
-| Type 2 if you need to disable this option off     |
- ---------------------------------------------------
+ --------------------------------------------------------------
+| Type 1 if you need to enable a trash can icon on the desktop |
+| Type 2 if you need to disable the trash icon                 |
+ --------------------------------------------------------------
 
 """)
     x = int (input("--> "))
 
 
     if x == 1:
-        os.system("gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'")
+        os.system("gsettings set org.gnome.shell.extensions.ding show-trash true")
         print ("""
 
  -----------------------------------
@@ -27,7 +27,7 @@ def minclick():
         os.system("clear")
 
     elif x == 2:
-        os.system("gsettings reset org.gnome.shell.extensions.dash-to-dock click-action")
+        os.system("gsettings set org.gnome.shell.extensions.ding show-trash false")
         print ("""
     
  -----------------------------------
